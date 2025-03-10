@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantai Tanjung Penyu</title>
+    <style>
+        body{
+            margin: 0px;
+            
+        }
+        .header-container{
+            display: flex;
+            justify-content: space-between;
+            z-index: 10;
+            padding: 10px;
+            position: relative;
+            color: white;
+            
+        }
+        .gambar{
+            height: 40vh;
+            width: 100%;
+            position: absolute;
+        }
+        .gambar img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .header-kanan{
+            display: flex;
+            margin-right: 30px; 
+        }
+       .lihat{
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: large;
+        }
+        .lihat:hover{
+            background-color: darkorange;
+            color: white;
+        }
+        .header-kiri{
+            display: flex;
+        }
+        .menu{
+            display: inline-block;
+            font-size: 20px;
+            text-indent: 20px;
+            transition: 0.3s ease-in-out;
+            
+        }
+        .menu:hover{
+             transform: scale(1.2);  
+        }
+        .content-satu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 650px;
+       }
+       .destinasi img{
+        position: absolute;
+        left: 10%;
+        bottom: 10%;
+        width: 400px;
+        border-radius: 10%;
+       }
+       .content-satu .isi{
+       position: absolute;
+       bottom: 150px;
+       right: 550px;
+       }
+       
+       .tengah{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+       #animasi{
+         display: inline-block;
+         font-size: 20px;
+         transition: 0.3s ease-in-out;
+       }
+       #animasi:hover{
+        transform: scale(1.2);
+       }
+       .foto {
+        background-color:rgb(255, 255, 255);
+        box-shadow: -1px -1px 10px -1px black;
+        border-radius: 20px;
+        width: 200px;
+        padding: 10px;
+        margin: 20px;
+        position: relative;
+       }
+       .foto img{
+        width: 200px;
+        bottom: 500px;
+        border-radius: 5px;
+       }
+       h4{
+        text-align: center;
+       }
+       .footer{
+        flex-wrap: wrap;
+        background-color: rgb(16, 31, 100);
+        color:aliceblue;
+        height: 400px;
+       }
+       .display{
+        display: flex;
+       }
+       .dalam {
+        margin-left: 200px;
+        margin-right: 100px;
+       }
+       .dalam h2{
+        text-decoration-line: underline;    
+        text-decoration-color: yellow;  
+       }
+       .dalam p{
+        white-space: pre-line;
+       }
+       .dalam a{
+        color: aliceblue;
+        text-decoration: none;
+       }
+       .dalam-link h2{
+        text-decoration-line: underline;    
+        text-decoration-color: yellow;   
+       }
+       .dalam-link a{
+        color: aliceblue;
+        text-decoration: none;
+       }
+       iframe{
+        border-radius: 10px;
+       }
+       .dalam-link p{
+        white-space: pre-line;
+        margin-top: -20px;
+       }
+       .footer .hak{
+        align-items: center;
+        background-color: rgb(34, 57, 87);
+        font-size: 15px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+    </style>
+</head>
+<body>
+    <div class="gambar">
+        <img src="area-samping.jpg" alt="area-pantai" >
+    </div>
+    <div class="header-container">
+        <div class="header-kiri">
+            <img src="logo-penyu.png" alt height="50px">
+            <h3>Tanjung Penyu</h3>
+        </div>
+        <div class="header-kanan">
+            <h3 class="menu">Home</h3>
+            <h3 class="menu">Pesan</h3>
+            <h3 class="menu">Destinasi</h3>
+        </div>
+    </div>
+    <div class="content-satu">
+    <div class="destinasi">
+        <img src="area-pantai.jpg" alt="destinasi">
+    </div>
+        <div class="isi">
+            <h2>Pantai Tanjung Penyu</h2>
+            <p>
+                Pantai tanjung penyu adalah destinasi wisata yang <br> menawarkan keindahan pasir putih dan ombak yang <br> tenang. Tempat ini cocok untuk menikmati matahari <br> terbenam serta melihat keindahan penyu dihabitat aslinya.
+            </p>
+            <a class="lihat" href="https://www.traveloka.com/id-id/explore/activities/panduan-wisata-pantai-tanjung-penyu-malang-ta/337922">Lihat Selengkapnya</a>
+        </div>
+    </div>
+    <div class="tengah">
+    <div class="foto" id="animasi">
+        <img src="area-gazebo.webp" alt="gazebo">
+        <h4>Area Gazebo</h4>
+        <p>Tempat bersantai dengan pemandangan pantai yang indah, cocok untuk keluarga</p>
+    </div>
+    <div class="foto" id="animasi">
+        <img src="area-camping.webp" alt="camping" >
+        <h4>Camping Area</h4>
+        <p>Lokasi luas dan nyaman untuk berkemah di tepi pantai dengan fasilitas yang memadai</p>
+    </div>
+    <div class="foto" id="animasi">
+        <img src="area-pantai.jpg" alt="pantai">
+        <h4>Area Pantai</h4>
+        <p>pasir putih yang bersih dan ombak tenang, cocok untuk bermain dan menikmati matahari</p>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="display">
+        <div class="dalam">
+            <h2>
+                Hubungi Kami
+            </h2>
+            <p>HJV+44 Tambak Sitiarjo,Kec.Sumbermanjing 
+                Wetan, Kab Malang,Jawa Timur <br> <a href="+62 821-2882-3113">+62 821-2882-3113</a> <br> <a href="tanjungpenyu@gmail.com">tanjungpenyu@gmail.com</a> <br>Senin - Minggu 24 Jam</p>
+        </div>
+        <div class="dalam-link">
+            <h2>Menu Cepat</h2>
+            <p>
+                <a href="">Beranda</a>
+                <a href="https://www.traveloka.com/id-id/bus-and-shuttle">Tiket & Reserfasi</a>
+                <a href="">Paket Wisata</a>
+                <a href="">Galer</a>
+                <a href="">Kontak</a>
+            </p>
+        </div>
+        <div class="dalam">
+            <h2>Lokasi Kami</h2>
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.5863404091738!2d112.6402409738172!3d-8.442218085294641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd601d401d00aeb%3A0x95e3d2e3326a418d!2sPantai%20Tanjung%20Penyu!5e0!3m2!1sid!2sid!4v1741263453166!5m2!1sid!2sid"
+            width="400" 
+            height="250"
+            style="border:;"
+            allowfullscreen=""
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    </div>
+        <div class="hak">
+            <p>© 2025 Wisata Indah. Semua Hak Dilindungi.</p>
+        </div>
+    </div>
+</body>
+</html>

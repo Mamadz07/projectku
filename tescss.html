@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel dengan CSS Dasar</title>
+    <style>
+        body{
+            background-color:rgb(143, 118, 86) ;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+             -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            padding:20px 20px 30px 20px;
+            border-radius: 20px 0px 20px 0px;
+            border-style:groove;
+            margin: 90px 200px 20px 100px;
+            min-width: 300px;
+            max-height: 400px;
+        }
+        h1,h2,h3{
+            color: rgb(41, 187, 255);
+        
+        }
+        p span{
+            background-color: yellow;
+        }
+        a{
+            color: rgb(151, 4, 4);
+            text-decoration: none;
+            text-align:center;
+        }
+        a:hover{
+            color: rgb(12, 243, 12);
+        }
+        p{
+            
+        }
+        .jarak{
+            display: flex;
+            align-items: center;
+        }
+    
+    .vertikal-line{
+        width: 2px;
+        height:25px;
+        margin-right: 5px;
+        background-color: aqua;
+        min-width: 3px;
+        
+    }
+    span[style="dd"]{
+        font-family: sans-serif;
+        font-style: italic;
+    }
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <article>
+           <h1>Apa Itu CSS</h1> 
+           <p><span >CSS</span> adalah bahasa yang digunankan untuk mendesain tampilan halaman web. </p>
+           <h2>Kegunaan CSS</h2>
+           <p>Dengan CSS bisa mengubah warna, ukuran teks,serta menambahkan efek visual lainnya.</p>
+           <h3>Kesimpulan</h3>
+           <p>CSS sangat penting dalam pengembangan web. Untuk lebih lanjut, kunjungi <a href="https://www.w3schools.com/" target="_blank">sumber belajar ini.</a></p>
+        </article>
+    </div>
+    <div class="jarak">
+    <div class="vertikal-line"> </div>
+    <span style="dd">&quot;Belajar CSS adalah langkah awal menuju desain web yang profesional&quot;</span>
+    </div>
+</body>
+</html>
